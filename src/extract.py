@@ -32,4 +32,4 @@ def salvar_dados(dados_brutos, output_path="data/raw/cotacao_dolar_json"):
 if __name__=="__main__":
     resultado = extract_cotacao_dolar(dias_atras=30)
     print(f"Registros recebidos: {len(resultado)}")
-    print(resultado[:2])
+    print(json.dumps(resultado[:2], indent=2))

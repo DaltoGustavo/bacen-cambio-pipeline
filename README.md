@@ -80,6 +80,22 @@ python src/main.py
 API PTAX do Banco Central do Brasil:
 https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/
 
+## Exemplos de resultado
+
+### Extração da API (dado bruto)
+
+![Dados brutos da API](imagens/dados_brutos_api.png)
+
+### Pipeline completo em execução
+
+![Pipeline executado](imagens/main_pipeline_sucesso.png)
+
+### Dados carregados no PostgreSQL
+
+Cotação diária do dólar, com variação percentual calculada via Window Function:
+
+![Cotação no PostgreSQL](imagens/PostgreSQL_cotacao_dolar.png)
+
 ## Próximos passos (evolução futura)
 
 - Adicionar testes de qualidade de dados
