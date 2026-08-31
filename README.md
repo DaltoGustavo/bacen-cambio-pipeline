@@ -40,7 +40,7 @@ pipelines de dados: nunca depender só da disponibilidade futura da fonte extern
   de testes com PySpark, veja o [voltmart-orders-pipeline].
 
 ## Estrutura do projeto
-
+```
 bacen-cambio-pipeline/
 ├── .env # credenciais (não versionado)
 ├── .gitignore
@@ -53,7 +53,7 @@ bacen-cambio-pipeline/
 ├── extract.py
 ├── transform.py
 └── load.py
-
+```
 ## Como rodar
 
 ```bash
